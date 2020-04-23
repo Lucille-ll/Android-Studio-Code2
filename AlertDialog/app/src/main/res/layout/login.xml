@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/loginForm"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<TableRow android:paddingLeft="20dp">
+		<!-- 输入用户名的文本框 -->
+		<EditText
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_gravity="center_horizontal"
+			android:hint="@string/user"
+			android:selectAllOnFocus="true" />
+	</TableRow>
+
+	<TableRow android:paddingLeft="20dp">
+		<!-- 输入密码的文本框 -->
+		<EditText
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="@string/password"
+			android:inputType="textPassword" />
+	</TableRow>
+
+</TableLayout>
+

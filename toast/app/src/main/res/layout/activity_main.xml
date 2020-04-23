@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- 设置字号为20sp，在文本框结尾处绘制图片  -->
+    <Button
+        android:id="@+id/lion"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="@drawable/change"
+        android:drawableRight="@drawable/lion"
+        android:text="@string/Lion"
+        android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:onClick="lion"
+        android:textSize="20sp" />
+
+    <!-- 设置字号为20sp，在文本框结尾处绘制图片  -->
+    <Button
+        android:id="@+id/tiger"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/change"
+        android:drawableRight="@drawable/tiger"
+        android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:text="@string/Tiger"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/monkey"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="@drawable/change"
+        android:drawableRight="@drawable/monkey"
+        android:text="@string/Monkey"
+        android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:textSize="20sp" />
+
+    <!-- 设置字号为20sp，在文本框结尾处绘制图片  -->
+    <Button
+        android:id="@+id/dog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/change"
+        android:drawableRight="@drawable/dog"
+        android:text="@string/Dog"
+        android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:textSize="20sp" />
+
+    <!-- 设置字号为20sp，在按钮结尾处绘制图片  -->
+    <Button
+        android:id="@+id/cat"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/change"
+        android:drawableRight="@drawable/cat"
+        android:text="@string/Cat"
+        android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/elephant"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="@drawable/change"
+        android:drawableRight="@drawable/elephant"
+        android:text="@string/Elephant"
+        android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:textSize="20sp" />
+</LinearLayout>

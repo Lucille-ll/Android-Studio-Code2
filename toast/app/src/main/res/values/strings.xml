@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">toast</string>
+    <string name="Lion">Lion</string>
+    <string name="Tiger">Tiger</string>
+    <string name="Monkey">Monkey</string>
+    <string name="Dog">Dog</string>
+    <string name="Cat">Cat</string>
+    <string name="Elephant">Elephant</string>
+</resources>
